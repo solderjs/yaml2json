@@ -2,7 +2,13 @@
   "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.info)",
   "name": "yaml2json",
   "description": "A commandline utility to convert YAML / YML to JSON",
-  "keywords": ["yml", "yaml", "json", "cli", "util"],
+  "keywords": [
+    "yml",
+    "yaml",
+    "json",
+    "cli",
+    "util"
+  ],
   "version": "1.0.2",
   "main": "index.js",
   "repository": {
@@ -20,7 +26,7 @@
   },
   "test": "echo 'error no test'; exit 1",
   "dependencies": {
-    "js-yaml": "3.0.2"
+    "js-yaml": "^3.4.3"
   },
   "devDependencies": {},
   "preferGlobal": true
